@@ -1,6 +1,26 @@
 #DashBoard {
-  background-color: yellow;
+  // background-color: yellow;
   width: 100%;
   min-height: 100vh;
   padding-top: 48px;
+  display: flex;
+
+  .taiwan-logo {
+    position: fixed;
+    top: 56px;
+    left: 0;
+    height: calc(100vh - 56px - 10px);
+  }
+
+  .content {
+    background-color: green;
+    width: 100%;
+    // padding: 0 10vw;
+  }
+
+  @media screen and (max-width: 576px) {
+    .taiwan-logo {
+      opacity: 0.1;
+    }
+  }
 }

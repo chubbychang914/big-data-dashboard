@@ -3,7 +3,34 @@ import "../styles/DashBoard.scss";
 function DashBoard() {
   return (
     <div id="DashBoard">
-      <h1>DashBoard</h1>
+      <img className="taiwan-logo" src={require("../imgs/taiwan.svg").default} alt="taiwan logo" />
+      <div className="content">
+        <h1>This is the contentcontentcontentcontentcontentcontent</h1>
+        <h1>This is the contentcontentcontentcontentcontentcontent</h1>
+        <h1>This is the contentcontentcontentcontentcontentcontent</h1>
+        <h1>This is the contentcontentcontentcontentcontentcontent</h1>
+        <h1>This is the contentcontentcontentcontentcontentcontent</h1>
+        <h1>This is the contentcontentcontentcontentcontentcontent</h1>
+        <h1>This is the contentcontentcontentcontentcontentcontent</h1>
+        <h1>This is the contentcontentcontentcontentcontentcontent</h1>
+        <h1>This is the contentcontentcontentcontentcontentcontent</h1>
+        <h1>This is the contentcontentcontentcontentcontentcontent</h1>
+        <h1>This is the contentcontentcontentcontentcontentcontent</h1>
+        <h1>This is the contentcontentcontentcontentcontentcontent</h1>
+        <h1>This is the contentcontentcontentcontentcontentcontent</h1>
+        <h1>This is the contentcontentcontentcontentcontentcontent</h1>
+        <h1>This is the contentcontentcontentcontentcontentcontent</h1>
+        <h1>This is the contentcontentcontentcontentcontentcontent</h1>
+        <h1>This is the contentcontentcontentcontentcontentcontent</h1>
+        <h1>This is the contentcontentcontentcontentcontentcontent</h1>
+        <h1>This is the contentcontentcontentcontentcontentcontent</h1>
+        <h1>This is the contentcontentcontentcontentcontentcontent</h1>
+        <h1>This is the contentcontentcontentcontentcontentcontent</h1>
+        <h1>This is the contentcontentcontentcontentcontentcontent</h1>
+        <h1>This is the contentcontentcontentcontentcontentcontent</h1>
+        <h1>This is the contentcontentcontentcontentcontentcontent</h1>
+        <h1>This is the contentcontentcontentcontentcontentcontent</h1>
+      </div>
     </div>
   );
 }
