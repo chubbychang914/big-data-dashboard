@@ -1,10 +1,12 @@
 import './App.css';
-import DashBoard from "./components/DashBoard";
+import NavBar from "./components/NavBar";
+// import DashBoard from "./components/DashBoard";
 
 function App() {
   return (
     <div className="App">
-      <DashBoard />
+      <NavBar />
+      {/* <DashBoard /> */}
     </div>
   );
 }
