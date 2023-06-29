@@ -1,6 +1,8 @@
+import "../styles/DashBoard.scss";
+
 function DashBoard() {
   return (
-    <div>
+    <div id="DashBoard">
       <h1>DashBoard</h1>
     </div>
   );
