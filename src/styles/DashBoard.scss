@@ -6,14 +6,14 @@
   display: flex;
 
   .taiwan-logo {
-    position: sticky;
+    position: fixed;
     top: 56px;
     left: 0;
-    width: 10%;
     display: flex;
-    // justify-content: center;
+    justify-content: center;
     height: calc(100vh - 56px - 10px);
-    img{
+
+    img {
       width: auto;
       height: 100%;
       object-fit: contain;
@@ -21,17 +21,32 @@
   }
 
   .content {
-    background-color: green;
-    width: 90%;
-    // padding: 0 8%;
+    // background-color: green;
+    width: 100%;
+    padding-top: 8px;
+    padding-left: 100px; // img 高度
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    .title {
+      color: #000;
+      font-size: 32px;
+      font-family: Noto Sans TC;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
   }
 
+  // RWD mobile media
   @media screen and (max-width: 576px) {
     .taiwan-logo {
-      opacity: 0.1;
+      opacity: 0.2;
+    }
+
+    .content {
+      padding: 16px;
     }
   }
 }

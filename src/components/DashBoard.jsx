@@ -7,32 +7,7 @@ function DashBoard() {
         <img src={require("../imgs/taiwan.svg").default} alt="taiwan logo" />
       </div>
       <div className="content">
-        <h1>this is just an exmaple for usagekdj alksdjf dafklhf</h1>
-        <h1>this is just an exmaple for usagekdj alksdjf dafklhf</h1>
-        <h1>this is just an exmaple for usagekdj alksdjf dafklhf</h1>
-        <h1>this is just an exmaple for usagekdj alksdjf dafklhf</h1>
-        <h1>this is just an exmaple for usagekdj alksdjf dafklhf</h1>
-        <h1>this is just an exmaple for usagekdj alksdjf dafklhf</h1>
-        <h1>this is just an exmaple for usagekdj alksdjf dafklhf</h1>
-        <h1>this is just an exmaple for usagekdj alksdjf dafklhf</h1>
-        <h1>this is just an exmaple for usagekdj alksdjf dafklhf</h1>
-        <h1>this is just an exmaple for usagekdj alksdjf dafklhf</h1>
-        <h1>this is just an exmaple for usagekdj alksdjf dafklhf</h1>
-        <h1>this is just an exmaple for usagekdj alksdjf dafklhf</h1>
-        <h1>this is just an exmaple for usagekdj alksdjf dafklhf</h1>
-        <h1>this is just an exmaple for usagekdj alksdjf dafklhf</h1>
-        <h1>this is just an exmaple for usagekdj alksdjf dafklhf</h1>
-        <h1>this is just an exmaple for usagekdj alksdjf dafklhf</h1>
-        <h1>this is just an exmaple for usagekdj alksdjf dafklhf</h1>
-        <h1>this is just an exmaple for usagekdj alksdjf dafklhf</h1>
-        <h1>this is just an exmaple for usagekdj alksdjf dafklhf</h1>
-        <h1>this is just an exmaple for usagekdj alksdjf dafklhf</h1>
-        <h1>this is just an exmaple for usagekdj alksdjf dafklhf</h1>
-        <h1>this is just an exmaple for usagekdj alksdjf dafklhf</h1>
-        <h1>this is just an exmaple for usagekdj alksdjf dafklhf</h1>
-        <h1>this is just an exmaple for usagekdj alksdjf dafklhf</h1>
-        <h1>this is just an exmaple for usagekdj alksdjf dafklhf</h1>
-        <h1>this is just an exmaple for usagekdj alksdjf dafklhf</h1>
+        <div className="title">人口數、戶數按戶別及性別統計</div>
       </div>
     </div>
   );
