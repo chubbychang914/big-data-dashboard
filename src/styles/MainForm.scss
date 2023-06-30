@@ -1,5 +1,7 @@
 #MainForm {
-  // background-color: black;
+  display: flex;
+  gap: 10px;
+
 
   // RWD mobile media
   @media screen and (max-width: 576px) {
