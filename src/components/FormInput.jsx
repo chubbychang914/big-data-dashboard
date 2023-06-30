@@ -1,13 +1,13 @@
-// import ""
+import "../styles/FormInput.scss"
 
 function FormInput() {
   return (
     <div id="FormInput">
-      <form>
+      <form className="form">
         <input type="text" />
         <input type="text" />
         <input type="text" />
-        <input type="button" />
+        <button type="submit">submit</button>
       </form>
     </div>
   )
