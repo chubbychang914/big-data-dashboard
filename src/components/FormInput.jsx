@@ -1,6 +1,15 @@
-function FormInput{
+// import ""
+
+function FormInput() {
   return (
-    <input type="text" />
+    <div id="FormInput">
+      <form>
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="button" />
+      </form>
+    </div>
   )
 }
 

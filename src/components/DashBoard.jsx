@@ -1,4 +1,6 @@
 import "../styles/DashBoard.scss";
+// components
+import FormInput from "./FormInput";
 
 function DashBoard() {
   return (
@@ -8,6 +10,7 @@ function DashBoard() {
       </div>
       <div className="content">
         <div className="title">人口數、戶數按戶別及性別統計</div>
+        < FormInput />
       </div>
     </div>
   );
