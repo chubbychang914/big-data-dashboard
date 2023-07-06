@@ -7,29 +7,23 @@ const MainForm = () => {
   const [year, setYear] = useState('');
   const [city, setCity] = useState('');
   const [county, setCounty] = useState('');
-  // hooks ====================
-  useEffect(() => {
-    const getData = async () => {
+  // functions ====================
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    if (year && city && county) {
       try {
-        await axios.get("https://www.ris.gov.tw/rs-opendata/api/v1/datastore/ODRP019/111")
-          .then(res => {
+        const url = `https://www.ris.gov.tw/rs-opendata/api/v1/datastore/ODRP019/${year}`
+        await axios.get(url)
+          .then((res) => {
             console.log(res.data)
           })
-      }
-      catch (err) {
+      } catch (err) {
         console.log(err)
       }
+    } else {
+      console.log("fill in box")
     }
-
-    // 執行 
-    getData();
-  }, [year, city, county])
-  // functions ====================
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(year, city, county);
   }
-
 
   return (
     <form id="MainForm" onSubmit={handleSubmit}>
@@ -63,7 +57,7 @@ const MainForm = () => {
         </select>
       </div>
       {/* submit btn */}
-      <button type="submit">Submit</button>
+      <button type="submit" onClick={handleSubmit}>Submit</button>
     </form>
   )
 }
