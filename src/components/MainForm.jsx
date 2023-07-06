@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import axios from "axios";
 import "../styles/MainForm.scss"
 
 const MainForm = () => {
@@ -6,10 +7,27 @@ const MainForm = () => {
   const [year, setYear] = useState('');
   const [city, setCity] = useState('');
   const [county, setCounty] = useState('');
+  // hooks ====================
+  useEffect(() => {
+    const getData = async () => {
+      try {
+        await axios.get("https://www.ris.gov.tw/rs-opendata/api/v1/datastore/ODRP019/111")
+          .then(res => {
+            console.log(res.data)
+          })
+      }
+      catch (err) {
+        console.log(err)
+      }
+    }
+
+    // 執行 
+    getData();
+  }, [year, city, county])
   // functions ====================
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(city, county, year);
+    console.log(year, city, county);
   }
 
 

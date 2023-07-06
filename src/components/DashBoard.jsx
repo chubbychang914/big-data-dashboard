@@ -1,5 +1,4 @@
 import "../styles/DashBoard.scss";
-// components
 import MainForm from "./MainForm";
 
 function DashBoard() {
