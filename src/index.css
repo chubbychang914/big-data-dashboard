@@ -57,13 +57,4 @@ a {
   text-decoration: none;
 }
 
-/* Reset button styles */
-button {
-  border: none;
-  outline: none;
-  background: none;
-  cursor: pointer;
-  padding: 0;
-}
-
 /* Optionally, add more reset styles as needed */
