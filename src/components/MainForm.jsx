@@ -57,7 +57,7 @@ const MainForm = () => {
         </select>
       </div>
       {/* submit btn */}
-      <button type="submit" onClick={handleSubmit}>Submit</button>
+      <button type="submit" className="btn btn-primary" onClick={handleSubmit}>Submit</button>
     </form>
   )
 }

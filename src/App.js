@@ -1,4 +1,5 @@
 import './App.scss';
+import 'bootstrap/dist/css/bootstrap.css';
 import NavBar from "./components/NavBar";
 import DashBoard from "./components/DashBoard";
 
